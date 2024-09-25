@@ -1,0 +1,60 @@
+.google-logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: -15px;
+
+}
+.google-logo #g {
+    color: blue;
+
+}
+#o {
+   color: red;
+}
+#o2 {
+    color: yellow;
+}
+#g2{
+   color: green;
+}
+#l {
+    color: blue;
+}
+#e {
+    color: red;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.search-bar {
+    margin-top: 30px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+.search-input {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 10px;
+}
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    justify-content: center;
+}
