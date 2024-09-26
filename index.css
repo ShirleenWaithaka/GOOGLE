@@ -44,16 +44,15 @@ body {
 .search-input {
     width: 500px;
     padding: 10px;
-    border: 1px solid grey;
+    border: 1px solid rgb(211, 209, 209);
     border-radius: 20px;
     font-size: 10px;
 }
 .search-button {
     padding: 10px 20px;
     border: none;
-    border-radius: 20px;
-    background-color: grey;
-    color: white;
+    background-color: rgba(236, 231, 231, 0.664);
+    color: #000000;
     font-size: 16px;
     cursor: pointer;
     margin-left: 10px;
